@@ -8,8 +8,14 @@
 		* {
 			font-family: arial;
 		}
+
+		.hidden {
+			display: none;
+		}
+		
 		nav {
 			position: fixed;
+			z-index: 1;
 
 			top: 0;
 			right: 0;
@@ -38,10 +44,28 @@
 			line-height: 32pt;
 			color: #303030;
 		}
+
+		.hamburger {
+			position: fixed;
+			z-index: 2;
+
+			top: 0;
+			right: 0;
+
+			font-size: 36pt;
+			padding: 8px 25px;
+
+			color: white;
+			background: black;
+			text-align: center;
+
+			cursor: pointer;
+		}
 	</style>
 </head>
 <body>
-	<nav>
+	<div class="hamburger" id="hamburger">≡</div>
+	<nav id="menu">
 		<a href="#web-content">Web content</a>
 		<a href="#beginnings">Beginnings</a>
 		<a href="#the-page-concept">The page concept</a>
@@ -207,6 +231,12 @@
 		function easeInOutQuad(progress) {
 			return progress < .5 ? 2*progress*progress : -1+(4-2*progress)*progress
 		}
+
+		const $hamburger = document.getElementById('hamburger'),
+				$menu = document.getElementById('menu');
+		$hamburger.addEventListener('click', () => {
+			$menu.classList.toggle('hidden');
+		});
 	</script>
 </body>
 </html>
