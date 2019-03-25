@@ -5,23 +5,36 @@
 	<title>Smooth scroll by id</title>
 	<link rel="stylesheet" href="styles.css">
 	<style>
+		* {
+			font-family: arial;
+		}
 		nav {
 			position: fixed;
 
 			top: 0;
 			right: 0;
 
-			width: 40vw;
+			width: 27vw;
 			padding: 15pt 0;
 
-			text-align: center;
-			font-size: 32pt;
+			text-align: left;
+			font-size: 24pt;
 
 			background: white;
 		}
 
 		a {
 			display: block;
+		}
+
+		main {
+			position: relative;
+
+			width: 70vw;
+			font-size: 20pt;
+
+			line-height: 32pt;
+			color: #303030;
 		}
 	</style>
 </head>
@@ -158,7 +171,7 @@
 		  		console.log(scrollOffset);
 
 		  		animate({
-		              duration: Math.abs(scrollOffset) * 0.5, // sets same scrolling speed for different scroll offset (change to constant for same scrolling time)
+		              duration: 200, // sets same scrolling speed for different scroll offset (change to constant for same scrolling time)
 		              timing: easeInOutQuad,
 		              draw: function(progress) {
 		                  window.scrollTo(0, scrollYStart + progress * scrollOffset);
