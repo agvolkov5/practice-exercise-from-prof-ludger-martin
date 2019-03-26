@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fb4e756-4f83-4aef-b6c1-1d2b4e5f6a7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/off-canvas-layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/off-canvas-layout.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/off-canvas-variants.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/off-canvas-variants.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,15 +22,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="612">
               <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mostly-fluid.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -79,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/off-canvas-layout.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+              <caret line="14" column="37" selection-end-line="18" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -91,17 +83,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/off-canvas-layout.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="50" column="10" lean-forward="true" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+            <state relative-caret-position="263">
+              <caret line="44" column="16" lean-forward="true" selection-end-line="54" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gps.js">
+        <entry file="file://$PROJECT_DIR$/off-canvas-variants.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="345">
+              <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/off-canvas-variants.sass">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -139,6 +140,8 @@
         <option value="$PROJECT_DIR$/layout-shifter.sass" />
         <option value="$PROJECT_DIR$/off-canvas-layout.sass" />
         <option value="$PROJECT_DIR$/off-canvas-layout.html" />
+        <option value="$PROJECT_DIR$/off-canvas-variants.html" />
+        <option value="$PROJECT_DIR$/off-canvas-variants.sass" />
       </list>
     </option>
   </component>
@@ -206,7 +209,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553596549362</updated>
-      <workItem from="1553596550733" duration="17100000" />
+      <workItem from="1553596550733" duration="18101000" />
     </task>
     <task id="LOCAL-00001" summary="columns complete">
       <created>1553602976034</created>
@@ -219,7 +222,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17100000" />
+    <option name="totallyTimeSpent" value="18101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="799" extended-state="0" />
@@ -317,13 +320,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/off-canvas-layout.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="50" column="10" lean-forward="true" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -348,7 +344,28 @@
     <entry file="file://$PROJECT_DIR$/off-canvas-layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <caret line="14" column="37" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/off-canvas-layout.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="44" column="16" lean-forward="true" selection-end-line="54" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/off-canvas-variants.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/off-canvas-variants.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="47" column="46" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
         </state>
       </provider>
     </entry>
