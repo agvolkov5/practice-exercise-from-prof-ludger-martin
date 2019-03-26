@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0fb4e756-4f83-4aef-b6c1-1d2b4e5f6a7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/layout-shifter.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/column-drop.html" beforeDir="false" afterPath="$PROJECT_DIR$/column-drop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout-shifter.html" beforeDir="false" afterPath="$PROJECT_DIR$/layout-shifter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout-shifter.css" beforeDir="false" afterPath="$PROJECT_DIR$/layout-shifter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout-shifter.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/layout-shifter.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout-shifter.sass" beforeDir="false" afterPath="$PROJECT_DIR$/layout-shifter.sass" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/layout-shifter.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+            <state relative-caret-position="585">
+              <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -205,7 +205,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553596549362</updated>
-      <workItem from="1553596550733" duration="16137000" />
+      <workItem from="1553596550733" duration="16368000" />
     </task>
     <task id="LOCAL-00001" summary="columns complete">
       <created>1553602976034</created>
@@ -218,11 +218,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16137000" />
+    <option name="totallyTimeSpent" value="16368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="799" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.205074" />
@@ -332,8 +331,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/layout-shifter.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="51" column="30" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+        <state relative-caret-position="585">
+          <caret line="51" column="16" lean-forward="true" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
         </state>
       </provider>
     </entry>
