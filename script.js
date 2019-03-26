@@ -4,6 +4,7 @@ console.log(a);
 for (let i = 0; i < a.length; i++) {
     a[i].addEventListener('click', function(event) {
         event.preventDefault(); // abort <a> click
+        foldMenu();
         const element = document.querySelector(a[i].getAttribute('href')); // get the signed element
 
         const scrollYStart = window.scrollY;
@@ -49,7 +50,25 @@ function easeInOutQuad(progress) {
 }
 
 const $hamburger = document.getElementById('hamburger'),
-    $menu = document.getElementById('menu');
+    $menu = document.getElementById('menu'),
+    $content = document.getElementById('content');
+
+foldMenu = () => {
+    $menu.classList.remove('visible');
+    $content.classList.remove('blurred');
+    console.log('folded');
+};
+
+unfoldMenu = () => {
+    $menu.classList.add('visible');
+    $content.classList.add('blurred');
+    console.log('unfolded');
+};
+
 $hamburger.addEventListener('click', () => {
-    $menu.classList.toggle('hidden');
+    unfoldMenu();
+});
+
+$content.addEventListener('click', () => {
+    foldMenu();
 });

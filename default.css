@@ -1,9 +1,13 @@
 * {
-  font-family: arial;
+  font-family: arial, sans-serif;
 }
 
-.hidden {
-  display: none;
+.visible {
+  display: block;
+}
+
+.blurred {
+  filter: blur(5px) !important;
 }
 
 nav {
@@ -11,7 +15,7 @@ nav {
   z-index: 1;
   top: 0;
   right: 0;
-  width: 27vw;
+  width: 35vw;
   padding: 15pt 0;
   text-align: left;
   font-size: 24pt;
@@ -20,11 +24,12 @@ nav {
 }
 nav a {
   display: block;
+  margin: 10pt 0;
 }
 
 main {
   position: relative;
-  width: 70vw;
+  width: 60vw;
   font-size: 20pt;
   line-height: 32pt;
   color: #303030;
@@ -33,15 +38,36 @@ main {
 .hamburger {
   position: fixed;
   z-index: 2;
+  display: none;
   top: 0;
   right: 0;
-  font-size: 8vw;
-  width: 10vw;
-  height: 10vw;
+  font-size: 49pt;
+  width: 2cm;
+  height: 2cm;
   color: white;
   background: black;
   text-align: center;
   cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+}
+
+@media only screen and (max-device-width: 800px) {
+  main {
+    width: 100vw;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  nav {
+    position: absolute;
+    display: none;
+    width: 100vw;
+    text-align: center;
+    box-shadow: 0 0 400px 30px gray;
+  }
 }
 
 /*# sourceMappingURL=default.css.map */
