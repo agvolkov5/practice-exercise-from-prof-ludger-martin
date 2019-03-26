@@ -1,71 +1,24 @@
-*
-  font-family: monospace, sans-serif
+body
+  padding-left: 40px
+  letter-spacing: 1px
+  word-spacing: 2px
 
-.visible
-  display: block
+h1
+  font-size: 32pt
 
-.blurred
-  filter: blur(5px) !important
+li
+  font-size: 23pt
+  line-height: 31pt
 
-nav
-  position: fixed
-  z-index: 1
+@media only screen and (max-width: 500px)
+  body
+    padding-left: 0
+    letter-spacing: 1px
+    word-spacing: 2px
 
-  top: 0
-  right: 0
+  h1
+    font-size: 21pt
 
-  width: 35vw
-  padding: 15pt 0
-
-  text-align: left
-  font-size: 24pt
-  line-height: 38pt
-
-  background: white
-
-  a
-    display: block
-    margin: 10pt 0
-
-main
-  position: relative
-
-  width: 60vw
-  font-size: 20pt
-
-  line-height: 32pt
-  color: #303030
-
-.hamburger
-  position: fixed
-  z-index: 2
-  display: none
-
-  top: 0
-  right: 0
-
-  font-size: 49pt
-  width: 2cm
-  height: 2cm
-
-  color: white
-  background: black
-  text-align: center
-
-  cursor: pointer
-  user-select: none
-  -moz-user-select: none
-
-@media only screen and (max-device-width: 800px)
-  main
-    width: 100vw
-
-  .hamburger
-    display: block
-
-  nav
-    position: fixed
-    display: none
-    width: 100vw
-    text-align: center
-    box-shadow: 0 0 400px 30px gray
+  li
+    font-size: 17pt
+    line-height: 20pt
