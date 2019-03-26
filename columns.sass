@@ -1,0 +1,47 @@
+*
+  margin: 0
+  padding: 0
+
+.wrapper
+  position: relative
+  width: 1000px
+  margin: auto
+
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+
+  .blue
+    background: #4268ff
+    width: 100%
+    height: 60vh
+
+  .red
+    background: #ff4242
+    height: 40vh
+    width: 50%
+
+  .orange
+    background: #ffa742
+    height: 40vh
+    width: 50%
+
+@media (min-width: 400px) and (max-width: 1000px)
+  .wrapper
+    width: 100%
+
+@media only screen and (max-device-width: 400px)
+  .wrapper
+    width: 100%
+
+    .blue
+      width: 100%
+      height: 60vh
+
+    .red
+      height: 50vh
+      width: 100%
+
+    .orange
+      height: 50vh
+      width: 100%
