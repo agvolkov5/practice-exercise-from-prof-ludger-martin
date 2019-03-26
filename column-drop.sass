@@ -5,13 +5,12 @@
   font-family: Arial, sans-serif
 
 .wrapper
-  position: relative
-  width: 100%
-  margin: auto
+  width: 100vw
+  height: 100vh
 
-  display: flex
-  flex-direction: row
-  flex-wrap: wrap
+  display: grid
+  grid-template-columns: 200px 1fr 200px
+  grid-template-areas: "red blue orange"
 
   .blue, .red, .orange
     color: white
@@ -21,20 +20,17 @@
 
     font-size: 38pt
 
-  .blue
-    background: #91c8ff
-    width: 70%
-    height: 100vh
-
   .red
+    grid-area: red
     background: #ffa5a1
-    height: 100vh
-    width: 15%
+
+  .blue
+    grid-area: blue
+    background: #91c8ff
 
   .orange
+    grid-area: orange
     background: #ffd28f
-    height: 100vh
-    width: 15%
 
 @media (min-width: 400px) and (max-width: 1000px) and (orientation: landscape)
   .wrapper
@@ -68,13 +64,13 @@
   .wrapper
     width: 100%
 
-    .blue
-      width: 100%
-      height: 100vh
-
     .red
       height: 100vh
       width: 100%
+
+    .blue
+      width: 100%
+      height: 100vh
 
     .orange
       height: 100vh

@@ -5,12 +5,11 @@
 }
 
 .wrapper {
-  position: relative;
-  width: 100%;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-areas: "red blue orange";
 }
 .wrapper .blue, .wrapper .red, .wrapper .orange {
   color: white;
@@ -19,20 +18,17 @@
   align-items: center;
   font-size: 38pt;
 }
-.wrapper .blue {
-  background: #91c8ff;
-  width: 70%;
-  height: 100vh;
-}
 .wrapper .red {
+  grid-area: red;
   background: #ffa5a1;
-  height: 100vh;
-  width: 15%;
+}
+.wrapper .blue {
+  grid-area: blue;
+  background: #91c8ff;
 }
 .wrapper .orange {
+  grid-area: orange;
   background: #ffd28f;
-  height: 100vh;
-  width: 15%;
 }
 
 @media (min-width: 400px) and (max-width: 1000px) and (orientation: landscape) {
@@ -67,13 +63,13 @@
   .wrapper {
     width: 100%;
   }
-  .wrapper .blue {
-    width: 100%;
-    height: 100vh;
-  }
   .wrapper .red {
     height: 100vh;
     width: 100%;
+  }
+  .wrapper .blue {
+    width: 100%;
+    height: 100vh;
   }
   .wrapper .orange {
     height: 100vh;
