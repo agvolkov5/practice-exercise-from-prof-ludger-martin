@@ -1,0 +1,55 @@
+*
+  margin: 0
+  padding: 0
+
+  font-family: Arial, sans-serif
+
+.wrapper
+  position: relative
+  margin: auto
+
+  width: 900px
+  height: 100vh
+
+  display: grid
+  grid-template-columns: 30% 45% 25%
+  grid-template-rows: 100vh
+  grid-template-areas: "red blue orange"
+
+  .blue, .red, .orange
+    color: white
+    display: flex
+    justify-content: center
+    align-items: center
+
+    font-size: 38pt
+
+  .red
+    grid-area: red
+    background: #ff867f
+
+  .blue
+    grid-area: blue
+    background: #91c8ff
+
+  .orange
+    grid-area: orange
+    background: #ffd28f
+
+@media (min-width: 400px) and (max-width: 900px) and (orientation: landscape)
+  .wrapper
+    width: 100vw
+
+@media (min-width: 400px) and (max-width: 900px) and (orientation: portrait)
+  .wrapper
+    width: 130vw
+    grid-template-columns: 40vw 60vw 30vw
+    grid-template-rows: 100vh
+    grid-template-areas: "red blue orange"
+
+@media only screen and (max-width: 400px)
+  .wrapper
+    width: 300vw
+    grid-template-columns: 100vw 100vw 100vw
+    grid-template-rows: 100vh
+    grid-template-areas: "red blue orange"
