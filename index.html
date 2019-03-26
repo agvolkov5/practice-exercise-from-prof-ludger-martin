@@ -3,66 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Smooth scroll by id</title>
-	<link rel="stylesheet" href="styles.css">
-	<style>
-		* {
-			font-family: arial;
-		}
-
-		.hidden {
-			display: none;
-		}
-		
-		nav {
-			position: fixed;
-			z-index: 1;
-
-			top: 0;
-			right: 0;
-
-			width: 27vw;
-			padding: 15pt 0;
-
-			text-align: left;
-			font-size: 24pt;
-
-			line-height: 38pt;
-
-			background: white;
-		}
-
-		a {
-			display: block;
-		}
-
-		main {
-			position: relative;
-
-			width: 70vw;
-			font-size: 20pt;
-
-			line-height: 32pt;
-			color: #303030;
-		}
-
-		.hamburger {
-			position: fixed;
-			z-index: 2;
-
-			top: 0;
-			right: 0;
-
-			font-size: 36pt;
-			padding: 8px 25px;
-
-			color: white;
-			background: black;
-			text-align: center;
-
-			cursor: pointer;
-		}
-	</style>
-</head>
+	<link rel="stylesheet" href="default.css" />
 <body>
 	<div class="hamburger" id="hamburger">≡</div>
 	<nav id="menu">
@@ -181,62 +122,6 @@
 		</article>
 	</main>
 
-	<script>
-		const a = document.getElementsByTagName('a');
-		console.log(a);
-
-		for (let i = 0; i < a.length; i++) {
-			a[i].addEventListener('click', function(event) {
-				event.preventDefault(); // abort <a> click
-				const element = document.querySelector(a[i].getAttribute('href')); // get the signed element
-			
-				const scrollYStart = window.scrollY;
-				const scrollOffset = element.offsetTop - scrollYStart;
-
-		    if (window.scrollY !== element.offsetTop) {
-		  		console.log(scrollOffset);
-
-		  		animate({
-		              duration: 200, // sets same scrolling speed for different scroll offset (change to constant for same scrolling time)
-		              timing: easeInOutQuad,
-		              draw: function(progress) {
-		                  window.scrollTo(0, scrollYStart + progress * scrollOffset);
-		              }
-		          });
-		    }
-			});
-		}
-
-		function animate(options) {
-
-		  let start = performance.now();
-
-		  requestAnimationFrame(function animate(time) {
-		    // timeFraction from 0 to 1
-		    let timeFraction = (time - start) / options.duration;
-		    if (timeFraction > 1) timeFraction = 1;
-
-		    // current animate state
-		    let progress = options.timing(timeFraction);
-
-		    options.draw(progress);
-
-		    if (timeFraction < 1) {
-		      requestAnimationFrame(animate);
-		    }
-
-		  });
-		}
-
-		function easeInOutQuad(progress) {
-			return progress < .5 ? 2*progress*progress : -1+(4-2*progress)*progress
-		}
-
-		const $hamburger = document.getElementById('hamburger'),
-				$menu = document.getElementById('menu');
-		$hamburger.addEventListener('click', () => {
-			$menu.classList.toggle('hidden');
-		});
-	</script>
+	<script src="script.js"></script>
 </body>
 </html>
