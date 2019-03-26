@@ -1,0 +1,1 @@
+const $blue=document.getElementById("blue");function successCallback(a){$blue.innerText="Lat: "+a.coords.latitude+"\nLog: "+a.coords.longitude+"\nH: "+a.coords.altitude}function errorCallback(a){console.log(a);$blue.innerText="Ehh.. You don't allow permission for GPS :("}navigator.geolocation.getCurrentPosition(successCallback,errorCallback);
