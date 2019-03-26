@@ -7,10 +7,6 @@
       <change beforePath="$PROJECT_DIR$/column-drop.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/column-drop.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/column-drop.html" beforeDir="false" afterPath="$PROJECT_DIR$/column-drop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/column-drop.sass" beforeDir="false" afterPath="$PROJECT_DIR$/column-drop.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gps.js" beforeDir="false" afterPath="$PROJECT_DIR$/gps.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mostly-fluid.css" beforeDir="false" afterPath="$PROJECT_DIR$/mostly-fluid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mostly-fluid.html" beforeDir="false" afterPath="$PROJECT_DIR$/mostly-fluid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mostly-fluid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/mostly-fluid.sass" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,17 +58,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mostly-fluid.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+            <state relative-caret-position="265">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/column-drop.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -80,8 +76,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/column-drop.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="1750">
+              <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/layout-shifter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -101,8 +106,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Sass File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -120,10 +125,11 @@
         <option value="$PROJECT_DIR$/columns.js" />
         <option value="$PROJECT_DIR$/columns.html" />
         <option value="$PROJECT_DIR$/gps.js" />
-        <option value="$PROJECT_DIR$/mostly-fluid.sass" />
         <option value="$PROJECT_DIR$/mostly-fluid.html" />
-        <option value="$PROJECT_DIR$/column-drop.sass" />
         <option value="$PROJECT_DIR$/column-drop.html" />
+        <option value="$PROJECT_DIR$/mostly-fluid.sass" />
+        <option value="$PROJECT_DIR$/column-drop.sass" />
+        <option value="$PROJECT_DIR$/layout-shifter.html" />
       </list>
     </option>
   </component>
@@ -191,7 +197,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553596549362</updated>
-      <workItem from="1553596550733" duration="13242000" />
+      <workItem from="1553596550733" duration="14485000" />
     </task>
     <task id="LOCAL-00001" summary="columns complete">
       <created>1553602976034</created>
@@ -204,11 +210,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13242000" />
+    <option name="totallyTimeSpent" value="14485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="799" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.205074" />
@@ -267,13 +272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mostly-fluid.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gps.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -295,17 +293,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/column-drop.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="18" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/column-drop.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mostly-fluid.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/column-drop.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1750">
+          <caret line="50" column="46" lean-forward="true" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout-shifter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>

@@ -32,46 +32,20 @@
     grid-area: orange
     background: #ffd28f
 
-@media (min-width: 400px) and (max-width: 1000px) and (orientation: landscape)
+@media (min-width: 400px) and (max-width: 600px) and (orientation: landscape)
   .wrapper
-    .red
-      width: 30%
-      height: 90vh
+    grid-template-columns: 200px 1fr
+    grid-template-rows: 90vh 90vh
+    grid-template-areas: "red blue" "orange orange"
 
-    .blue
-      width: 70%
-      height: 90vh
-
-    .orange
-      width: 100%
-      height: 90vh
-
-@media (min-width: 400px) and (max-width: 1000px) and (orientation: portrait)
+@media (min-width: 400px) and (max-width: 600px) and (orientation: portrait)
   .wrapper
-    .red
-      width: 100%
-      height: 70vh
+    grid-template-columns: 100vw
+    grid-template-rows: 70vh 70vh 70vh
+    grid-template-areas: "blue" "red" "orange"
 
-    .blue
-      width: 100%
-      height: 70vh
-
-    .orange
-      width: 100%
-      height: 40vh
-
-@media only screen and (max-device-width: 400px)
+@media only screen and (max-width: 400px)
   .wrapper
-    width: 100%
-
-    .red
-      height: 100vh
-      width: 100%
-
-    .blue
-      width: 100%
-      height: 100vh
-
-    .orange
-      height: 100vh
-      width: 100%
+    grid-template-columns: 100vw
+    grid-template-rows: 70vh 70vh 70vh
+    grid-template-areas: "blue" "red" "orange"
