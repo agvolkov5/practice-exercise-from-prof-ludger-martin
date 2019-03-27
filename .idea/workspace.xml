@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0fb4e756-4f83-4aef-b6c1-1d2b4e5f6a7e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/off-canvas-variants/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/off-canvas-variants/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/off-canvas-variants/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/off-canvas-variants/off-canvas-variants.css" beforeDir="false" afterPath="$PROJECT_DIR$/off-canvas-variants/off-canvas-variants.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/off-canvas-variants/off-canvas-variants.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/off-canvas-variants/off-canvas-variants.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/off-canvas-variants/off-canvas-variants.sass" beforeDir="false" afterPath="$PROJECT_DIR$/off-canvas-variants/off-canvas-variants.sass" afterDir="false" />
-    </list>
+    <list default="true" id="0fb4e756-4f83-4aef-b6c1-1d2b4e5f6a7e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -41,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/off-canvas-variants/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+            <state relative-caret-position="-13">
+              <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -194,7 +187,7 @@
       <updated>1553596549362</updated>
       <workItem from="1553596550733" duration="20211000" />
       <workItem from="1553676225212" duration="14000" />
-      <workItem from="1553676262080" duration="2845000" />
+      <workItem from="1553676262080" duration="3576000" />
     </task>
     <task id="LOCAL-00001" summary="columns complete">
       <created>1553602976034</created>
@@ -207,7 +200,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23070000" />
+    <option name="totallyTimeSpent" value="23801000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="799" extended-state="0" />
@@ -387,8 +380,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/off-canvas-variants/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        <state relative-caret-position="-13">
+          <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
         </state>
       </provider>
     </entry>
