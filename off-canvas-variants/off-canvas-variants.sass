@@ -4,17 +4,15 @@
 
   font-family: Arial, sans-serif
 
-.wrapper
+.content
   position: relative
   margin: auto
 
-  width: 900px
-  height: 100vh
+  width: 100vw
 
   display: grid
-  grid-template-columns: 20% 80%
-  grid-template-rows: 150px 1fr
-  grid-template-areas: "red red" "orange blue"
+  grid-template-rows: 150px 300vh
+  grid-template-areas: "red" "blue"
 
   .blue, .red, .orange
     color: white
@@ -32,7 +30,15 @@
     grid-area: blue
     background: #91c8ff
 
+.menu
   .orange
+    position: fixed
+    top: 0
+    left: -300px
+
+    width: 300px
+    height: 100vh
+
     grid-area: orange
     background: #ffd28f
 
@@ -40,22 +46,22 @@
   .wrapper
     width: 100vw
 
-@media (min-width: 400px) and (max-width: 900px) and (orientation: portrait)
-  .wrapper
-    width: 120vw
-    grid-template-columns: 20vw 100vw
-    grid-template-rows: 400px auto
-    grid-template-areas: ". red" "orange blue"
-
-    .blue
-      min-height: 100vh
-
-@media only screen and (max-width: 400px)
-  .wrapper
-    width: 120vw
-    grid-template-columns: 20vw 100vw
-    grid-template-rows: 400px auto
-    grid-template-areas: ". red" "orange blue"
-
-    .blue
-      min-height: 100vh
+//@media (min-width: 400px) and (max-width: 900px) and (orientation: portrait)
+//  .wrapper
+//    width: 120vw
+//    grid-template-columns: 20vw 100vw
+//    grid-template-rows: 400px auto
+//    grid-template-areas: ". red" "orange blue"
+//
+//    .blue
+//      min-height: 100vh
+//
+//@media only screen and (max-width: 400px)
+//  .wrapper
+//    width: 120vw
+//    grid-template-columns: 20vw 100vw
+//    grid-template-rows: 400px auto
+//    grid-template-areas: ". red" "orange blue"
+//
+//    .blue
+//      min-height: 100vh
